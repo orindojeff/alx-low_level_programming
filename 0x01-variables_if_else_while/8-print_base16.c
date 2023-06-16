@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
+
 /**
  * main - entry point
  * Description: print base 16 numbers
@@ -9,7 +10,7 @@ int main(void)
 {
 	char c;
 	char d = '0';
-	
+
 	while (d <= '9')
 	{
 		putchar(d);
