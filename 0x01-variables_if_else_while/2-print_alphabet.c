@@ -4,7 +4,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: Prints the alphabet in lowercase followed by a newline character.
+ * Description: Prints the alphabet in lowercase followed by a newline character
  *
  * Return: Always 0 (Success)
  */
