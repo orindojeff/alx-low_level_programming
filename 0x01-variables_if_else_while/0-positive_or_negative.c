@@ -1,30 +1,22 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
+
 /**
- * main -prints if the number is positive or negative
- *
- * Description:A C program that print if number is positive or negative
- * return: 0
+ * This program checks if a given number is positive or negative.
  */
 int main(void)
 {
-	int n;
+    int number;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 2)
-	{
-		printf("%d is positive\n", n);
-	}
-	else if (n == 0)
-	{
-		printf("%d is zero\n", n);
-	}
-	else if (n < 0)
-	{
-		printf("%d is negative\n", n);
-	}
-	return (0);
+    printf("Enter a number: ");
+    scanf("%d", &number);
 
+    if (number > 0) {
+        printf("%d is positive.\n", number);
+    } else if (number < 0) {
+        printf("%d is negative.\n", number);
+    } else {
+        printf("The number is zero.\n");
+    }
+
+    return 0;
 }
