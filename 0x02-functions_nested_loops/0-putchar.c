@@ -1,19 +1,25 @@
 #include "main.h"
 
 /**
- * main - print _putchar
+ * main - Print the word "_putchar"
+ *
  * Return: 0 (Success)
  */
 int main(void)
 {
-        _putchar('_');
-        _putchar('p');
-        _putchar('u');
-        _putchar('t');
-        _putchar('c');
-        _putchar('h');
-        _putchar('a');
-        _putchar('r');
-        _putchar('\n');
-        return (0);
+	print_putchar();
+	return (0);
+}
+
+void print_putchar(void)
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 }
